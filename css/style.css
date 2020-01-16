@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://www.altran.com/as-content/uploads/sites/10/2017/05/2-6_industrials-electronics_v2_share_1200x600.jpg);
+    background-size: cover;
+    font-family: 'Open-Sans', sans-serif;
+    color: black;
+}
+
+p {
+    color: red;
+    text-align: center;
+    font-size: 25px;
+}
+
+.ancestor {
+    background-color: beige;
+    height: 650px;
+    width: 700px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.element {
+    display: inline-block;
+    position: relative;
+}
+
+.element img {
+    width: 200px;
+    height: 250px;
+    object-fit: contain;
+    background-color: white;
+}
+
+.sconto {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: green;
+}
+
+.cuore {
+    color: red;
+    font-size: 30px;
+    position: absolute;
+    bottom: 30px;
+    left: 90px;
+    display: none;
+}
+
+.element:hover .cuore {
+    display: block;
+}
+
+.ancestor1 {
+    position: relative;
+    top: 20px;
+    left: 40px;
+}
+
+.ancestor2 {
+    position: relative;
+    top: 60px;
+    left: 40px;
+}
+
+#center {
+    background-color: red;
+}
+
+.cuore {
+    cursor: pointer;
+}
